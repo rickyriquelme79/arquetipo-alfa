@@ -12,55 +12,74 @@ header{
     width: 100%;
     height: auto;
     text-align: center;
-}
-
-    h1{
-        color: rgb(11, 12, 12);
-        font-size:70px;
     }
 
-nav{display: flex;
+
+    h1{
+    color: rgb(11, 12, 12);
+    font-size:70px;
+    }
+
+nav{
+    display: flex;
     justify-content: space-around;
-    background-color:goldenrod;
+    background-color:crimson;
+    border: 2px solid rgb(22, 22, 22);
+
 }
 button{
-    width: 10%;
+    width: 6em;
+    height: 2em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: aliceblue;
+    border-radius:10px ;
+    border: 1px solid aliceblue;
+
 }
 
 main{
-    display: flex;
     width: 100%;
-    background-color: deeppink;
+    background-color: rgb(253, 251, 252);
+    display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
     .box1{
-        width: 50%;
-        height: 15em;
-        border: red solid 1px;
-
+        border: black solid 2px;
+        margin: 2%;
+        width: 250px;
+        height: 250px;
     }
     
     .box2{
-        width: 50%;
-        height: 15em;
-        border: red solid 1px;
-
+        width: auto;    
+        border: black solid 2px;
+        margin: 2%;
+        width: 250px;
+        height: 250px;
     }
     .box3{
-        width: 50%;
-        height: 15em;
-        border: red solid 1px;
+        width: auto;
+        border: black solid 2px;
+        margin: 2%;
+        width: 250px;
+        height: 250px;
 
     }
     .box4{
-        width: 50%;
-        height: 15em;
-        border: red solid 1px;
+        width: auto;
+        border: black solid 2px;
+        margin: 2%;
+        width: 250px;
+        height: 250px;
 
     }
-
+    
 
 p{
 color: rgb(10, 11, 11);
@@ -70,6 +89,8 @@ h4{
     display: block;
     text-align: center;
     font-size: 20px;
+    background-color: black;
+    color: aliceblue;
 }
 
 footer{
@@ -79,7 +100,5 @@ footer{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: aqua;
-    
- 
+    background-color:aliceblue;
 }
